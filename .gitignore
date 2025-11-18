@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build artifacts
+dist/
+frontend/dist/
+backend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+frontend/.env
+backend/.env
+
+# Editor directories
+.vscode/
+.idea/
+
+# System files
+*.DS_Store
+Thumbs.db
+
+# Coverage / testing
+coverage/
+backend/coverage/
+frontend/coverage/
+
+# Local data
+backend/wordlists/*
+!backend/wordlists/*.txt
+
